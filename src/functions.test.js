@@ -86,7 +86,7 @@ test('create an event list of at least 10 events', () => {
 
     //Actuar sobre él
     let numberOfEvent = Math.floor(Math.random() * (100 - 10 + 10)) + 10; // Rango: 10-100
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < numberOfEvent; i++) {
         //genero numero aleatorios enteros
         let week = Math.floor(Math.random() * (4 - 1 + 1)) + 1; //Rango: 1-4
         let weekDay = week_days[Math.floor(Math.random() * (7 - 1 + 1)) + 1]; //Rango: 1-7
